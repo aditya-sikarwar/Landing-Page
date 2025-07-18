@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background: #1a1a1a;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1571019613578-2b3c3fd0f682?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #ff3c3c;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e02929;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background: white;
+    text-align: center;
+}
+
+.feature {
+    max-width: 300px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
+
+.cta {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
